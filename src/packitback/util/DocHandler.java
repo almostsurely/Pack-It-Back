@@ -92,7 +92,11 @@ public class DocHandler {
 			for (int i = 0; i < count; i++){
 				builder.append(picker.pickObject().getChild("Name").getText() + "\n");
 			}
+			builder.append("\n");
 		}
+		
+		//Remove last Line Break
+		builder.delete(builder.lastIndexOf("\n"), builder.length());
 		
 		return builder.toString();
 		
