@@ -7,9 +7,8 @@ public class Card {
 	private String name;
 	private ArrayList<String> levels;
 	
-	public Card(String name, ArrayList<String> levels){
+	public Card(String name){
 		this.name = name;
-		this.levels = levels;
 	}
 
 	/**

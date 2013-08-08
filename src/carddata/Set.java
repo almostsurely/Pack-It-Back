@@ -5,12 +5,12 @@ import java.util.ArrayList;
 public class Set {
 	
 	private String name;
-	private PackDistribution distribution;
+	private Pack pack;
 	private ArrayList<Card> cards;
 	
-	public Set(String name, PackDistribution distribution){
+	public Set(String name, Pack pack){
 		this.name = name;
-		this.distribution = distribution;
+		this.pack = pack;
 	}
 	
 	public void addCard(Card card){
@@ -38,15 +38,15 @@ public class Set {
 	/**
 	 * @return the distribution
 	 */
-	public PackDistribution getDistribution() {
-		return distribution;
+	public Pack getPack() {
+		return pack;
 	}
 
 	/**
 	 * @param distribution the distribution to set
 	 */
-	public void setDistribution(PackDistribution distribution) {
-		this.distribution = distribution;
+	public void setPack(Pack pack) {
+		this.pack = pack;
 	}
 	
 }
