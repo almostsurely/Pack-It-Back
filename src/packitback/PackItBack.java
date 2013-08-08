@@ -22,14 +22,7 @@ public class PackItBack {
 			e.printStackTrace();
 		}
 		
-		
-		//TODO: Temp stuff. Remove
-		for (String s : docHand.getGames()){
-			System.out.println(s);
-			for (String t : docHand.getSets(s)){
-				System.out.println(t);
-			}
-		}
+		System.out.println(docHand.getPack("Zatch Bell", "Premier Set"));
 		
 	}
 	

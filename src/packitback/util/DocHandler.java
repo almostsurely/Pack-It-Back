@@ -55,18 +55,34 @@ public class DocHandler {
 	public String getPack(String game, String set){
 		StringBuilder builder = new StringBuilder();
 		
-		//TODO Replace
-		return new String("Lorem ipsum");
+		ArrayList<Element> builds = getBuilds(game, set);
+		
+		ObjectPicker<Element> packPicker = new ObjectPicker<Element>();
+		
+		for (Element e : builds){
+			double weight = Double.parseDouble(e.getChild("Weight").getText());
+			packPicker.add(e, weight);
+		}
+		
+		Element packBuild = packPicker.pickObject();
+		
+		//TODO Temp jazz
+		if(packBuild != null){
+			return packBuild.getName();
+		} else {
+			//TODO Tweak or throw NullPointerException
+			return "Uh Oh. Something's wrong.";
+		}
 	}
 	
-	public ArrayList<Element> getBuilds(String game, String set){
+	private ArrayList<Element> getBuilds(String game, String set){
 		ArrayList<Element> builds = new ArrayList<Element>();
 		
 		for (Element e : doc.getRootElement().getChildren("Game")){
-			if (e.getChild("Name").getText() == game){
+			if (e.getChild("Name").getText().equals(game)){
 				for (Element f : e.getChildren("Set")){
-					if (f.getChild("Name").getText() == set){
-						for (Element g : f.getChildren("Build")){
+					if (f.getChild("Name").getText().equals(set)){
+						for (Element g : f.getChild("PackDistribution").getChildren("Build")){
 							builds.add(g);
 						}
 					}
