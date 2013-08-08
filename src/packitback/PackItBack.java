@@ -22,6 +22,7 @@ public class PackItBack {
 			e.printStackTrace();
 		}
 		
+		//TODO Remove
 		System.out.println(docHand.getPack("Zatch Bell", "Premier Set"));
 		
 	}
