@@ -129,7 +129,7 @@ public class DocHandler {
 			}
 			int count = Integer.parseInt((e.getChild("Count").getText()));
 			for (int i = 0; i < count; i++){
-				builder.append(picker.pickObject().getChild("Name").getText() + "\n");
+				builder.append(picker.pullObject().getChild("Name").getText() + "\n");
 			}
 			builder.append("\n");
 		}

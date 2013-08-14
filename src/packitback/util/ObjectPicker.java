@@ -46,11 +46,11 @@ public class ObjectPicker<T> {
 	}
 	
 	/**
-	 * This method returns an object picked at random, based on its weighted value.
+	 * This method selects a bucket at random from the Hashset.
 	 * 
-	 * @return	a random object picked from the bucket list
+	 * @return returns a bucket with an object inside
 	 */
-	public T pickObject(){
+	public Bucket<T> pickBucket(){
 		
 		double totalWeight = 0.0;
 		
@@ -64,11 +64,40 @@ public class ObjectPicker<T> {
 		for (Bucket<T> b : buckets){
 			i += b.getWeight();
 			if (r <= i){
-				return b.getObject();
+				return b;
 			}
 		}
 		
 		return null;
+	}
+	
+	/**
+	 * This method returns an object picked at random, based on its weighted value.
+	 * 
+	 * @return	a random object picked from the bucket list
+	 */
+	public T pickObject(){
+		
+		return pickBucket().getObject();
+		
+	}
+	
+	
+	/**
+	 * Similar to the above pullObject, but this method also removes the object from
+	 * the Hashset
+	 * 
+	 * @return a random object picked from the bucket list
+	 */
+	public T pullObject(){
+		
+		Bucket<T> pick = pickBucket();
+		
+		T obj = pick.getObject();
+		
+		buckets.remove(pick);
+		
+		return obj;
 	}
 	
 	//BUCKET CLASS
