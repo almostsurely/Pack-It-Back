@@ -15,20 +15,39 @@ import javax.swing.JTextArea;
 
 import packitback.util.DocHandler;
 
+/**
+ * The UserInterface Class. Sets up the User Interface and overal functionality.
+ * 
+ * @author James Dozier
+ *
+ */
 public class UserInterface extends JFrame{
 	
+	//FIELDS
+	/**
+	 *  Relevant fields for the User Interface.
+	 */
 	private JTextArea results = new JTextArea(1, 20);
 	private JComboBox<String> games;
 	private JComboBox<String> sets;
 	private DocHandler docHand;
 	
-	
+	//CONSTRUCTOR
+	/**
+	 * Constructor for the User Interface.
+	 * 
+	 * @param docHandParam	Reference to Document Handler from PackItBack().
+	 */
 	public UserInterface(DocHandler docHandParam){
 		this.docHand = docHandParam;
 		
 		init();
 	}
 	
+	//METHODS
+	/**
+	 *  Initializes the User Interface and sets proper settings.
+	 */
 	private void init(){
 		setTitle("Pack-It-Back");
 		setSize(600,300);
@@ -55,7 +74,6 @@ public class UserInterface extends JFrame{
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				// TODO Auto-generated method stub
 				refreshSets();
 			}
 			
@@ -82,8 +100,15 @@ public class UserInterface extends JFrame{
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
-				results.setText(docHand.getPack((String)games.getSelectedItem(), (String)sets.getSelectedItem()));
+				String resultsString = null;
+				try {
+					resultsString = docHand.getPack((String)games.getSelectedItem(), (String)sets.getSelectedItem());
+				} catch (NullPointerException e1) {
+					// TODO Auto-generated catch block
+					//e1.printStackTrace();
+					resultsString = e1.toString();
+				}
+				results.setText(resultsString);
 			}
 			
 		});
@@ -100,6 +125,9 @@ public class UserInterface extends JFrame{
 		add(mainPanel, BorderLayout.CENTER);
 	}
 
+	/**
+	 * This method resets the options in the sets JComboBox to reflect Sets relevant to the game in the games JComboBox.
+	 */
 	private void refreshSets() {
 		// TODO Auto-generated method stub
 		sets.removeAllItems();

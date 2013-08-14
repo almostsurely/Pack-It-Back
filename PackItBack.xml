@@ -3,7 +3,6 @@
 	<Name>Zatch Bell</Name>
 		<Set>
 			<Name>Premier Set</Name>
-			<PackDistribution>
 				<Build>
 					<Weight>5</Weight>
 					<Level>
@@ -42,7 +41,6 @@
 						<Count>1</Count>
 					</Level>
 				</Build>
-			</PackDistribution>
 			<Card>
 				<Name>Zatch Bell {Kind King} M-001</Name>
 				<Level>Common</Level>
