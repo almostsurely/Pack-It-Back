@@ -1,11 +1,6 @@
 package packitback;
 
-import java.io.IOException;
-
-import org.jdom2.JDOMException;
-
 import packitback.ui.UserInterface;
-import packitback.util.DocHandler;
 
 /**
  * This is the main class for PackItBack. It initializes the Document Handler
@@ -17,29 +12,19 @@ public class PackItBack {
 	
 	//FIELDS
 	/**
-	 *  Fields for the Document Handler and the User Interface.
+	 *  Fields for the User Interface.
 	 */
-	private DocHandler docHand;
 	private UserInterface ui;
 	
 	//CONSTRUCTOR
 	/**
 	 * Constructor for Pack-It-Back. 
 	 * 
-	 * @param filename	File path to the .xml document loaded.
+	 * @param filepath	File path to the .xml document loaded.
 	 */
-	public PackItBack(String filename){
+	public PackItBack(String filepath){
 		
-		try {
-			docHand = new DocHandler(filename);
-		} catch (JDOMException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		initUI();		
+		initUI(filepath);		
 
 	}
 	
@@ -50,20 +35,22 @@ public class PackItBack {
 	 * @param args	One argument accepted as file path. Otherwise defaults to PackItBack.xml in the same directory as the PackItBack.jar.
 	 */
 	public static void main(String[] args) {
-		String filename;
+		String filepath;
 		if(args.length == 0){
-			filename = "PackItBack.xml";
+			filepath = "PackItBack.xml";
 		} else {
-			filename = args[0];
+			filepath = args[0];
 		}
-		new PackItBack(filename);
+		new PackItBack(filepath);
 	}
 	
 	/**
-	 *  Initializes the User Interface, and sends a reference to the Document Handler.
+	 *  Initializes the User Interface.
+	 *  
+	 *  @param filepath File location of the XML
 	 */
-	private void initUI(){
-		ui = new UserInterface(docHand);
+	private void initUI(String filepath){
+		ui = new UserInterface(filepath);
 		ui.setVisible(true);
 	}
 

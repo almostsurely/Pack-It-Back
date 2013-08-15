@@ -1234,7 +1234,6 @@
 
 <Set>
 			<Name>Supreme Power Of The Golden Spell</Name>
-			<PackDistribution>
 				<Build>
 					<Weight>5</Weight>
 					<Level>
@@ -1273,7 +1272,6 @@
 						<Count>1</Count>
 					</Level>
 				</Build>
-		</PackDistribution>
 <Card>
 
 <Name>Zatch Bell {Unafraid Heart} M-035</Name>

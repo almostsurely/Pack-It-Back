@@ -14,7 +14,7 @@ import java.util.Random;
  * being pulled out. 
  * 
  * @author 		James Dozier
- * @version 	1.0, 9/1/2012
+ * @version 	1.1, 8/14/2013
  * @param <T> 	This is the generic object type stored in the ObjectPicker.
  */
 public class ObjectPicker<T> {

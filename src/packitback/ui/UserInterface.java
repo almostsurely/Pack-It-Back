@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -12,6 +13,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+
+import org.jdom2.JDOMException;
 
 import packitback.util.DocHandler;
 
@@ -22,8 +25,10 @@ import packitback.util.DocHandler;
  *
  */
 public class UserInterface extends JFrame{
-	
+
 	//FIELDS
+	private static final long serialVersionUID = 6202616830881402019L;
+	
 	/**
 	 *  Relevant fields for the User Interface.
 	 */
@@ -36,12 +41,20 @@ public class UserInterface extends JFrame{
 	/**
 	 * Constructor for the User Interface.
 	 * 
-	 * @param docHandParam	Reference to Document Handler from PackItBack().
+	 * @param filepath Location of the XML
 	 */
-	public UserInterface(DocHandler docHandParam){
-		this.docHand = docHandParam;
-		
+	public UserInterface(String filepath){
+
 		init();
+		
+		try {
+			this.docHand = new DocHandler(filepath);
+			refreshGames();
+			refreshSets();
+		} catch (JDOMException | IOException e) {
+			results.setText(e.toString());
+		}
+		
 	}
 	
 	//METHODS
@@ -67,9 +80,6 @@ public class UserInterface extends JFrame{
 		
 		//2
 		games = new JComboBox<String>();
-		for (String s : docHand.getGames()){
-			games.addItem(s);
-		}
 		games.addActionListener(new ActionListener(){
 
 			@Override
@@ -85,7 +95,6 @@ public class UserInterface extends JFrame{
 		
 		//4
 		sets = new JComboBox<String>();
-		refreshSets();
 		uiPanel.add(sets);
 		mainPanel.add(uiPanel);
 		
@@ -126,10 +135,21 @@ public class UserInterface extends JFrame{
 	}
 
 	/**
+	 * This method loads the list of games from the main XML into the games JCombobox.
+	 */
+	private void refreshGames() {
+		games.removeAllItems();
+		
+		for (String s : docHand.getGames()){
+			games.addItem(s);
+		}
+		
+	}
+	
+	/**
 	 * This method resets the options in the sets JComboBox to reflect Sets relevant to the game in the games JComboBox.
 	 */
 	private void refreshSets() {
-		// TODO Auto-generated method stub
 		sets.removeAllItems();
 		
 		for (String s : docHand.getSets((String)games.getSelectedItem())){
