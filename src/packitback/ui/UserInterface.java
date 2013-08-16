@@ -19,7 +19,7 @@ import org.jdom2.JDOMException;
 import packitback.util.DocHandler;
 
 /**
- * The UserInterface Class. Sets up the User Interface and overal functionality.
+ * The UserInterface Class. Sets up the User Interface and overall functionality.
  * 
  * @author James Dozier
  *
@@ -29,9 +29,13 @@ public class UserInterface extends JFrame{
 	//FIELDS
 	private static final long serialVersionUID = 6202616830881402019L;
 	
-	/**
-	 *  Relevant fields for the User Interface.
-	 */
+	private static final int WINDOW_WIDTH = 600;
+	private static final int WINDOW_HEIGHT = 300;
+	private static final int MARGIN = 5;
+	private static final int COMPONENT_HEIGHT = 25;
+	private static final int BUTTON_WIDTH = 100;
+	private static final int BUTTON_Y = 225;
+	
 	private JTextArea results = new JTextArea(1, 20);
 	private JComboBox<String> games;
 	private JComboBox<String> sets;
@@ -63,7 +67,7 @@ public class UserInterface extends JFrame{
 	 */
 	private void init(){
 		setTitle("Pack-It-Back");
-		setSize(600,300);
+		setSize(WINDOW_WIDTH,WINDOW_HEIGHT);
 		setResizable(false);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
@@ -73,63 +77,41 @@ public class UserInterface extends JFrame{
 		
 		//UI Panel
 		JPanel uiPanel = new JPanel();
-		uiPanel.setLayout(new GridLayout(8, 1));
+		uiPanel.setLayout(null);
 		
-		//1
-		uiPanel.add(new JLabel("Games"));
+		//Setting up components
+		JLabel gameLabel = new JLabel("Games");
+		gameLabel.setBounds(MARGIN, MARGIN, (WINDOW_WIDTH/2)-(MARGIN * 2), COMPONENT_HEIGHT);
 		
-		//2
 		games = new JComboBox<String>();
-		games.addActionListener(new ActionListener(){
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-				refreshSets();
-			}
-			
-		});
-		uiPanel.add(games);
+		games.setBounds(MARGIN, (MARGIN * 2) + COMPONENT_HEIGHT, (WINDOW_WIDTH/2)-(MARGIN * 2), COMPONENT_HEIGHT);
+		games.addActionListener(new ComboListener());
 		
-		//3
-		uiPanel.add(new JLabel("Sets"));
+		JLabel setsLabel = new JLabel("Sets");
+		setsLabel.setBounds(MARGIN, (MARGIN * 3) + (COMPONENT_HEIGHT * 2), (WINDOW_WIDTH/2)-(MARGIN * 2), COMPONENT_HEIGHT);
 		
-		//4
 		sets = new JComboBox<String>();
-		uiPanel.add(sets);
-		mainPanel.add(uiPanel);
+		sets.setBounds(MARGIN, (MARGIN * 4) + (COMPONENT_HEIGHT * 3), (WINDOW_WIDTH/2)-(MARGIN * 2), COMPONENT_HEIGHT);
 		
-		//5-7
-		for (int i = 0; i < 3; i++){
-			uiPanel.add(new JLabel(""));
-		}
-		
-		//8
 		JButton pullButton = new JButton("Pull Pack");
-		pullButton.addActionListener(new ActionListener(){
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				String resultsString = null;
-				try {
-					resultsString = docHand.getPack((String)games.getSelectedItem(), (String)sets.getSelectedItem());
-				} catch (NullPointerException e1) {
-					// TODO Auto-generated catch block
-					//e1.printStackTrace();
-					resultsString = e1.toString();
-				}
-				results.setText(resultsString);
-			}
-			
-		});
+		pullButton.addActionListener(new ButtonListener());
+		pullButton.setBounds((WINDOW_WIDTH/2) - MARGIN - BUTTON_WIDTH, BUTTON_Y, BUTTON_WIDTH, COMPONENT_HEIGHT);
 		
+		//Adding the components
+		uiPanel.add(gameLabel);
+		uiPanel.add(games);
+		uiPanel.add(setsLabel);
+		uiPanel.add(sets);
 		uiPanel.add(pullButton);
-		
-		
+
+		mainPanel.add(uiPanel);
+	
 		//Results Pane
 		results.setEditable(false);
 		results.setLineWrap(true);
 		JScrollPane resultsPane = new JScrollPane(results);
 		mainPanel.add(resultsPane);
+		
 		
 		add(mainPanel, BorderLayout.CENTER);
 	}
@@ -155,5 +137,38 @@ public class UserInterface extends JFrame{
 		for (String s : docHand.getSets((String)games.getSelectedItem())){
 			sets.addItem(s);
 		}
+	}
+	
+	/**
+	 * Listener for the "Pull Pack" JButton
+	 * On press it fills the results JTextbox with a String of the pulled cards.
+	 */
+	private class ButtonListener implements ActionListener{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			String resultsString = null;
+			try {
+				resultsString = docHand.getPack((String)games.getSelectedItem(), (String)sets.getSelectedItem());
+			} catch (NullPointerException e1) {
+				// TODO Auto-generated catch block
+				resultsString = e1.toString();
+			}
+			results.setText(resultsString);
+		}
+		
+	}
+	
+	/**
+	 * Listener for when the games JComboButton changes.
+	 * Forces a refresh for the sets JComboButton.
+	 */
+	private class ComboListener implements ActionListener{
+		
+		@Override
+		public void actionPerformed(ActionEvent arg0) {
+			refreshSets();
+		}
+		
 	}
 }
