@@ -20,9 +20,6 @@ import org.jdom2.input.SAXBuilder;
 public class DocHandler {
 	
 	//FIELDS
-	/**
-	 * The JDOM Document
-	 */
 	private Document doc;
 	
 	//CONSTRUCTOR
@@ -93,7 +90,7 @@ public class DocHandler {
 	}
 	
 	/**
-	 * This is where the magic happens
+	 * This is where the magic happens.
 	 * 
 	 * @param game						The game the pack comes from.
 	 * @param set						The set of that game the pack comes from.
@@ -101,11 +98,13 @@ public class DocHandler {
 	 * @throws NullPointerException		An Exception when something goes horribly wrong. Most likely a problem with XML formatting.
 	 */
 	public String getPack(String game, String set) throws NullPointerException{
+		
+		//Sets up the StringBuilder and ObjectPicker.
 		StringBuilder builder = new StringBuilder();
-		
-		ArrayList<Element> builds = getBuilds(game, set);
-		
 		ObjectPicker<Element> picker = new ObjectPicker<Element>();
+		
+		//Section of code determines which Pack Build is pulled.
+		ArrayList<Element> builds = getBuilds(game, set);
 		
 		for (Element e : builds){
 			double weight = Double.parseDouble(e.getChild("Weight").getText());
@@ -113,11 +112,18 @@ public class DocHandler {
 		}
 		
 		Element packBuild = picker.pickObject();
-				
+		
+		
+		//Starts with a List of Levels in the selected build.
 		for (Element e : packBuild.getChildren("Level")){
+			
+			//Adds name of 1st Level to results string.
 			builder.append(e.getChild("Name").getText() + ":\n");
+			
+			//creates a new picker for each Level.
 			picker = new ObjectPicker<Element>();
 			
+			//Adds Card elements to the picker if it's listed as being part of Level.
 			for (Element f : getCards(game, set)){
 				for (Element g : f.getChildren("Level")){
 					String a = g.getText();
@@ -127,10 +133,18 @@ public class DocHandler {
 					}
 				}
 			}
+			
+			//Get count of how many cards are in Level.
 			int count = Integer.parseInt((e.getChild("Count").getText()));
+			
+			//Picks a card and appends the Text to the StringBuilder.
 			for (int i = 0; i < count; i++){
-				builder.append(picker.pullObject().getChild("Name").getText() + "\n");
+				Element f = picker.pullObject();
+				String s = f.getChild("Name").getText() + "\n";
+				builder.append(s);
 			}
+			
+			//Extra Line Break between Levels.
 			builder.append("\n");
 		}
 		
