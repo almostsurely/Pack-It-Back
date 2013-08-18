@@ -55,7 +55,7 @@ public class UserInterface extends JFrame{
 			this.docHand = new DocHandler(filepath);
 			refreshGames();
 			refreshSets();
-		} catch (/*JDOMException | IOException*/ Exception e) {
+		} catch (JDOMException | IOException e) {
 			results.setText(e.toString());
 		}
 		

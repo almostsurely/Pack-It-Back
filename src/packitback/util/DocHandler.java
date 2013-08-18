@@ -46,7 +46,7 @@ public class DocHandler {
 	 * @throws IOException
 	 */
 	private Document loadFile(String filename) throws JDOMException, IOException{
-		SAXBuilder builder = new SAXBuilder(XMLReaders.XSDVALIDATING);
+		SAXBuilder builder = new SAXBuilder();
 		Document doc = builder.build(new File(filename));
 		return doc;
 	}
