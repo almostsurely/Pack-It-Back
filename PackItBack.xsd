@@ -1,45 +1,103 @@
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="PackItBack">
+
+  <!-- Root Element -->
   <xs:element name="PackItBack">
     <xs:complexType>
       <xs:sequence>
+
+        <!-- Start of Game Element -->
         <xs:element name="Game">
           <xs:complexType>
             <xs:sequence>
+
+              <!-- Start of Name Element in Game -->
               <xs:element type="xs:string" name="Name"/>
-              <xs:element name="Set" maxOccurs="unbounded" minOccurs="0">
+              <!-- End of Name Element in Game -->
+
+              <!-- Start of Set Element in Game -->
+              <xs:element name="Set" maxOccurs="unbounded" minOccurs="1">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element type="xs:string" name="Name"/>
-                    <xs:element name="Build" maxOccurs="unbounded" minOccurs="0">
+
+                    <!-- Start of Name Element in Set -->
+                    <xs:element type="xs:string" name="Name" minOccurs="1"/>
+                    <!-- End of Name Element in Set -->
+
+                    <!-- Start of Build Element in Set -->
+                    <xs:element name="Build" maxOccurs="unbounded" minOccurs="1">
                       <xs:complexType>
                         <xs:sequence>
-                          <xs:element type="xs:byte" name="Weight"/>
-                          <xs:element name="Level" maxOccurs="unbounded" minOccurs="0">
+
+                          <!-- Start of Weight Element in Build -->
+                          <xs:element name="Weight" minOccurs="1">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:decimal">
+                                <xs:minExclusive value="0"/>
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <!-- End of Weight Element in Build -->
+
+                          <!-- Start of Level Element in Build -->
+                          <xs:element name="Level" maxOccurs="unbounded" minOccurs="1">
                             <xs:complexType>
                               <xs:sequence>
-                                <xs:element type="xs:string" name="Name"/>
-                                <xs:element type="xs:byte" name="Count"/>
+
+                                <!-- Start of Name Element in Level -->
+                                <xs:element type="xs:string" name="Name" minOccurs="1"/>
+                                <!-- End of Name Element in Level -->
+
+                                <!-- Start of Count Element in Level -->
+                                <xs:element name="Count" minOccurs="1">
+                                  <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                      <xs:minExclusive value="0"/>
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                                <!-- End of Count Element in Level -->
+
                               </xs:sequence>
                             </xs:complexType>
                           </xs:element>
+                          <!-- End of Level Element in Build -->
+
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                    <xs:element name="Card" maxOccurs="unbounded" minOccurs="0">
+                    <!-- End of Build Element in Set -->
+
+                    <!-- Start of Card Element in Set -->
+                    <xs:element name="Card" maxOccurs="unbounded" minOccurs="1">
                       <xs:complexType>
                         <xs:sequence>
-                          <xs:element type="xs:string" name="Name"/>
-                          <xs:element type="xs:string" name="Level" maxOccurs="unbounded" minOccurs="0"/>
+
+                          <!-- Start of Name Element in Card -->
+                          <xs:element type="xs:string" name="Name" minOccurs="1"/>
+                          <!-- End of Name Element in Card -->
+
+                          <!-- Start of Level Element in Card -->
+                          <xs:element type="xs:string" name="Level" maxOccurs="unbounded" minOccurs="1"/>
+                          <!-- End of Level Element in Card -->
+
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
+                    <!-- End of Card Element in Set -->
+
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
+              <!-- End of Set Element in Game -->
+
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        <!-- End of Game Element -->
+
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <!-- End of Root Element -->
+
 </xs:schema>

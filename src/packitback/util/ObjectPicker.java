@@ -13,7 +13,7 @@ import java.util.Random;
  * 50% chance of being selected, while A, B, and C each have a 16.67% chance of
  * being pulled out. 
  * 
- * @author 		James Dozier
+ * @author 		James
  * @version 	1.1, 8/14/2013
  * @param <T> 	This is the generic object type stored in the ObjectPicker.
  */

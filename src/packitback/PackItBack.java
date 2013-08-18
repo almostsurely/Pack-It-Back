@@ -6,7 +6,7 @@ import packitback.ui.UserInterface;
  * This is the main class for PackItBack. It initializes the Document Handler
  * and the User Interface for the program.
  * 
- * @author James Dozier
+ * @author James
  */
 public class PackItBack {
 	

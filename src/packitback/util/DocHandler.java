@@ -9,12 +9,13 @@ import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
+import org.jdom2.input.sax.XMLReaders;
 
 /**
  * A handler object for the JDOM Document class. Holds all relevant functions for
  * pulling information from the JDOM Document.
  * 
- * @author James Dozier
+ * @author James
  *
  */
 public class DocHandler {
@@ -45,7 +46,7 @@ public class DocHandler {
 	 * @throws IOException
 	 */
 	private Document loadFile(String filename) throws JDOMException, IOException{
-		SAXBuilder builder = new SAXBuilder();
+		SAXBuilder builder = new SAXBuilder(XMLReaders.XSDVALIDATING);
 		Document doc = builder.build(new File(filename));
 		return doc;
 	}
@@ -56,7 +57,10 @@ public class DocHandler {
 	public ArrayList<String> getGames(){
 		ArrayList<String> games = new ArrayList<String>();
 		
-		for(Element e : doc.getRootElement().getChildren("Game")){
+		Element root = doc.getRootElement();
+		List<Element> gameE = root.getChildren("Game");
+		
+		for(Element e : gameE){
 			Element n = e.getChild("Name");
 			games.add(n.getText());
 		}

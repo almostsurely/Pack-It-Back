@@ -21,7 +21,7 @@ import packitback.util.DocHandler;
 /**
  * The UserInterface Class. Sets up the User Interface and overall functionality.
  * 
- * @author James Dozier
+ * @author James
  *
  */
 public class UserInterface extends JFrame{
@@ -55,7 +55,7 @@ public class UserInterface extends JFrame{
 			this.docHand = new DocHandler(filepath);
 			refreshGames();
 			refreshSets();
-		} catch (JDOMException | IOException e) {
+		} catch (/*JDOMException | IOException*/ Exception e) {
 			results.setText(e.toString());
 		}
 		
