@@ -1,2262 +1,1283 @@
 <PackItBack>
-	<Game>
-	<Name>Zatch Bell</Name>
-		<Set>
-			<Name>Premier Set</Name>
-				<Build>
-					<Weight>5</Weight>
-					<Level>
-						<Name>Rare</Name>
-						<Count>1</Count>
-					</Level>
-					<Level>
-						<Name>Uncommon</Name>
-						<Count>3</Count>
-					</Level>
-					<Level>
-						<Name>Common</Name>
-						<Count>5</Count>
-					</Level>
-					<Level>
-						<Name>Reverse Holo</Name>
-						<Count>1</Count>
-					</Level>
-				</Build>
-				<Build>
-					<Weight>1</Weight>
-					<Level>
-						<Name>Rare</Name>
-						<Count>1</Count>
-					</Level>
-					<Level>
-						<Name>Uncommon</Name>
-						<Count>3</Count>
-					</Level>
-					<Level>
-						<Name>Common</Name>
-						<Count>5</Count>
-					</Level>
-					<Level>
-						<Name>Super Rare</Name>
-						<Count>1</Count>
-					</Level>
-				</Build>
-			<Card>
-				<Name>Zatch Bell {Kind King} M-001</Name>
-				<Level>Common</Level>
-	<Level>Reverse Holo</Level>
-		</Card>
-	
-
-<Card>
-
-<Name>Zatch Bell {Droupout Zatch} M-002</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zatch Bell {Injured Hero} M-003</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Reycom {Evil Tool} M-004</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Brago {Self-Possessed Warrior} M-005</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Gofure {Imitated Friend} M-006</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Gofure (Transformed) {Real Self} M-007</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Sugino {Tactician} M-008</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kolulu {Kind Girl} M-009</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kolulu (Transformed) {Mad Warrior} M-010</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Fein {Tactical Enemy} M-011</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-<Card>
-
-<Name>Kanchome {Lucky Guy} M-012</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kanchome {Invincible Fellow} M-013</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Tia {Reliable Partner} M-014</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Tia {Obstinancy} M-015</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zatch Bell {Lost Memory} M-016</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Brago {Dark Mamodo} M-017</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Brago {Self-Possession} M-018</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kanchome {Odd Animal} M-019</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Tia {Along With Megumi} M-020</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Hyde {Rider On The Wind} M-021</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zofis {Mental Controller} M-022</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Pokkerio {Vegetation Mamodo} M-023</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Robnos (Double) {Two In One} M-024</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Robnos (Complete) {Maximum Power} M-025</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Maruss {Betrayer} M-026</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Baltro (Armored) {Emulated Armor} M-027</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Baltro {Brutal Real Form} M-028</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zeno {Enmity} M-029</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Yopopo {Topopoi} M-030</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kikuropu {Kikuropu's Armor} M-031</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kiyo Takamine P-001</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Hosokawa P-002</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Sherry P-003</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Renji P-004</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Haru P-005</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Lori P-006</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Sebe P-007</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Parco Folgore P-008</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Megumi P-009</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kiyo Takamine P-010</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Eido P-011</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Sherry P-012</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Koko P-013</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Periko P-014</Name>
-
-<Level>Common</Level>
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Ruku P-015</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Rembrant P-016</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Steng P-017</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Djem P-018</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>British Gentleman P-019</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>The Will To Protect E-001</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Tina E-002</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Yellowtail E-003</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Friendship Curry E-004</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Suzy's Lucky Fruit E-005</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Yuta Akiyama E-006</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Ivy Kinoyama E-007</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Suzy Mizuno E-008</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kind King E-009</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kind Kiyo E-010</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Iron Man Folgore E-011</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Here Comes Zatch Bell! E-012</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Naomi E-013</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Ponygon E-014</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Volcan 300 E-015</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Mr. Takamine (Seitaro Takamine) E-016</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Mrs. Takamine (Hana Takamine) E-017</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Fologore's Dance E-018</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kiyo's Anger E-019</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Megumi's Concert E-020</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Big Relief! E-021</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kory E-022</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Purpose Of The Battle E-023</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Professor Dartagnan E-024</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Yopopo's Dance E-025</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>I Asked For Fish! E-026</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Best Friends E-027</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zaker S-001</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zaker S-002</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Rashield S-003</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Jikerdor S-004</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Bao Zakeruga S-005</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Gikor S-006</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Freezudo S-007</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Reis S-008</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Gravirei S-009</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Giganoreis S-010</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Ion Gravirei S-011</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Doruk S-012</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Dorsen S-013</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Juron S-014</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Raja Jugaro S-015</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zeruk S-016</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zerusen S-017</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Wigar S-018</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Yuruk S-019</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Poruk S-020</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Koporuk S-021</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Seoshi S-022</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Saisu S-023</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Ma Seshield S-024</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Let's Get Out Of Here! S-025</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Ready! S-026</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Hold On! S-027</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Watch Out! S-028</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zaker S-029</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Rashield S-030</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Bao Zakeruga S-031</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Reis S-032</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Gravirei S-033</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Giganoreis S-034</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Ion Gravirei S-035</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Jikir S-037</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Jikirga S-038</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Radom S-039</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Barjuron S-040</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Juruk S-041</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Biraitsu S-042</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Rei Buruk S-043</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Garon S-044</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Ganzu Garon S-045</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Ei Garon S-046</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Hollow</Level>
-
-</Card>
-
-<Card>
-
-<Name>Gigano Garanzu S-047</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zeberu S-048</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zeberusen S-049</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Mikeru S-050</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Doremikeru S-051</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Amuruk S-052</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Amu Shizaru S-053</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Amerusen S-054</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Emeron S-055</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Stay Focused! S-056</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Checkmate! S-057</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zaker S-058</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-	</Set>
-
-<Set>
-			<Name>Supreme Power Of The Golden Spell</Name>
-				<Build>
-					<Weight>5</Weight>
-					<Level>
-						<Name>Rare</Name>
-						<Count>1</Count>
-					</Level>
-					<Level>
-						<Name>Uncommon</Name>
-						<Count>3</Count>
-					</Level>
-					<Level>
-						<Name>Common</Name>
-						<Count>5</Count>
-					</Level>
-					<Level>
-						<Name>Reverse Holo</Name>
-						<Count>1</Count>
-					</Level>
-				</Build>
-				<Build>
-					<Weight>1</Weight>
-					<Level>
-						<Name>Rare</Name>
-						<Count>1</Count>
-					</Level>
-					<Level>
-						<Name>Uncommon</Name>
-						<Count>3</Count>
-					</Level>
-					<Level>
-						<Name>Common</Name>
-						<Count>5</Count>
-					</Level>
-					<Level>
-						<Name>Super Rare</Name>
-						<Count>1</Count>
-					</Level>
-				</Build>
-<Card>
-
-<Name>Zatch Bell {Unafraid Heart} M-035</Name>
-
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-
-</Card>
-
-
-<Card>
-
-<Name>Eshros {Elite} M-037</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Rops {A King For Freedom} M-038</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Danny {Combat} M-039</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Purio {A Difficult Child} M-040</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zoboron {A Strange Pet} M-041</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Wonrei {Protective King} M-042</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zabas {Armored Wing} M-043</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Bago {Robber} M-044</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zatch Bell {Shining Body} M-047</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zatch Bell {All Strength} M-048</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kanchome {Noble Fool} M-049</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Tia {We Are Not Alone} M-050</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zeno {Invincible} M-051</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Brago {A Regal Presence} M-053</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zatch Bell {Iron Will} M-070</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Brago {Lofty Ideal} M-071</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kanchome {I Love Candy} M-072</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Tia {Gotta Hurry} M-073</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Eshros {Hidden True Character} M-075</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Baransha {Hunter} M-076</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Cut N' Paste {Cutting Off The Space} M-082</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Nya (Transformed) {Ribbon Of Bounds} M-083</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Nya {Meow} EX-002</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kiyo Takamine P-020</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Sherry P-021</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Shin P-023</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Apollo P-024</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Mr. Goldo P-025</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Lupa P-026</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Hige P-027</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Li-en P-028</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Galliont P-029</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Fredo P-030</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Parco Folgore P-032</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Megumi P-033</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Dufort P-034</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Garza P-044</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Shion P-049</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kiichiro P-050</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Nana Baba E-028</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kiyo's Summer Vacation E-029</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Double-0 Folgore! Super Spy! E-030</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Naomi's Help E-031</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Prime Yellowtail E-032</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Completed Job E-033</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Princess Marie E-034</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Praying Mantis Joe E-035</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Volunlun E-036</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Tia's Homemade Dish E-038</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Rushka E-039</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Friends E-040</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Light And Darkness E-042</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>The Most Powerful Mamodo E-043</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Wife E-050</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Will You Help Me Fight? E-051</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Dioga Gravidon S-036</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zaker S-059</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zakeruga S-060</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Groundam S-065</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Grandbao S-066</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Grandsen S-067</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Grancrag S-068</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Rigron S-069</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Rigrosen S-070</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Dino Rignon S-071</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Jioruk S-072</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Dareido S-073</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Poreid S-074</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Mokerudo S-075</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Dogurak S-076</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Oru Dogurak</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Go Boren S-078</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Rerudo S-079</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Garuk S-080</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Oru Wigar S-081</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Fureido S-082</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Rin Fureido S-083</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Bareido S-084</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Gigano Bareido S-085</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Combination! S-089</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Are You OK? S-090</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Bao Zakeruga S-091</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zakeruga S-092</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Poruk S-093</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Koporuk S-094</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Saisu S-096</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Ma Seshield S-097</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zaker S-099</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Zakeruga S-100</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Clayshield S-114</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Groundgarudo S-115</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Claydo S-116</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Groundbai S-117</Name>
-
-<Level>Super Rare</Level>
-
-</Card>
-
-<Card>
-
-<Name>Okeru S-118</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Doruk S-119</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Boruk S-120</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Gu Riaruk S-121</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Gigano Gadoruk S-122</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Go Redoruk S-131</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Gar Redoruk S-132</Name>
-
-<Level>Rare</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Paperuto S-136</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Peruk S-137</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Kyadopan S-138</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Baikal S-139</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Baris S-140</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Poreidoruk S-141</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Shizaruk S-142</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Paperuk S-143</Name>
-
-<Level>Uncommon</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Ganzu Poreid S-144</Name>
-
-<Level>Common</Level>
-<Level>Reverse Holo</Level>
-
-</Card>
-
-<Card>
-
-<Name>Come Out!</Name>
-
-<Level>Uncommon</Level><Level>Reverse Holo</Level>
-
-</Card>
-</Set>	
-	</Game>
+  <Game>
+    <Name>Zatch Bell</Name>
+    <Set>
+      <Name>Premier Set</Name>
+      <Build>
+        <Weight>5</Weight>
+        <Level>
+          <Name>Rare</Name>
+          <Count>1</Count>
+        </Level>
+        <Level>
+          <Name>Uncommon</Name>
+          <Count>3</Count>
+        </Level>
+        <Level>
+          <Name>Common</Name>
+          <Count>5</Count>
+        </Level>
+        <Level>
+          <Name>Reverse Holo</Name>
+          <Count>1</Count>
+        </Level>
+      </Build>
+      <Build>
+        <Weight>1</Weight>
+        <Level>
+          <Name>Rare</Name>
+          <Count>1</Count>
+        </Level>
+        <Level>
+          <Name>Uncommon</Name>
+          <Count>3</Count>
+        </Level>
+        <Level>
+          <Name>Common</Name>
+          <Count>5</Count>
+        </Level>
+        <Level>
+          <Name>Super Rare</Name>
+          <Count>1</Count>
+        </Level>
+      </Build>
+      <Card>
+        <Name>Zatch Bell {Kind King} M-001</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zatch Bell {Droupout Zatch} M-002</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zatch Bell {Injured Hero} M-003</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Reycom {Evil Tool} M-004</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Brago {Self-Possessed Warrior} M-005</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Gofure {Imitated Friend} M-006</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Gofure (Transformed) {Real Self} M-007</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Sugino {Tactician} M-008</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kolulu {Kind Girl} M-009</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kolulu (Transformed) {Mad Warrior} M-010</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Fein {Tactical Enemy} M-011</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kanchome {Lucky Guy} M-012</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kanchome {Invincible Fellow} M-013</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Tia {Reliable Partner} M-014</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Tia {Obstinancy} M-015</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zatch Bell {Lost Memory} M-016</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Brago {Dark Mamodo} M-017</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Brago {Self-Possession} M-018</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kanchome {Odd Animal} M-019</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Tia {Along With Megumi} M-020</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Hyde {Rider On The Wind} M-021</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zofis {Mental Controller} M-022</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Pokkerio {Vegetation Mamodo} M-023</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Robnos (Double) {Two In One} M-024</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Robnos (Complete) {Maximum Power} M-025</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Maruss {Betrayer} M-026</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Baltro (Armored) {Emulated Armor} M-027</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Baltro {Brutal Real Form} M-028</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zeno {Enmity} M-029</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Yopopo {Topopoi} M-030</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kikuropu {Kikuropu's Armor} M-031</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kiyo Takamine P-001</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Hosokawa P-002</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Sherry P-003</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Renji P-004</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Haru P-005</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Lori P-006</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Sebe P-007</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Parco Folgore P-008</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Megumi P-009</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Kiyo Takamine P-010</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Eido P-011</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Sherry P-012</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Koko P-013</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Periko P-014</Name>
+        <Level>Common</Level>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Ruku P-015</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Rembrant P-016</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Steng P-017</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Djem P-018</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>British Gentleman P-019</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>The Will To Protect E-001</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Tina E-002</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Yellowtail E-003</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Friendship Curry E-004</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Suzy's Lucky Fruit E-005</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Yuta Akiyama E-006</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Ivy Kinoyama E-007</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Suzy Mizuno E-008</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kind King E-009</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kind Kiyo E-010</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Iron Man Folgore E-011</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Here Comes Zatch Bell! E-012</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Naomi E-013</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Ponygon E-014</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Volcan 300 E-015</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Mr. Takamine (Seitaro Takamine) E-016</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Mrs. Takamine (Hana Takamine) E-017</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Fologore's Dance E-018</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kiyo's Anger E-019</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Megumi's Concert E-020</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Big Relief! E-021</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kory E-022</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Purpose Of The Battle E-023</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Professor Dartagnan E-024</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Yopopo's Dance E-025</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>I Asked For Fish! E-026</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Best Friends E-027</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zaker S-001</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zaker S-002</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Rashield S-003</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Jikerdor S-004</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Bao Zakeruga S-005</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Gikor S-006</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Freezudo S-007</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Reis S-008</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Gravirei S-009</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Giganoreis S-010</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Ion Gravirei S-011</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Doruk S-012</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Dorsen S-013</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Juron S-014</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Raja Jugaro S-015</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zeruk S-016</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zerusen S-017</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Wigar S-018</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Yuruk S-019</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Poruk S-020</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Koporuk S-021</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Seoshi S-022</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Saisu S-023</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Ma Seshield S-024</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Let's Get Out Of Here! S-025</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Ready! S-026</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Hold On! S-027</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Watch Out! S-028</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zaker S-029</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Rashield S-030</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Bao Zakeruga S-031</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Reis S-032</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Gravirei S-033</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Giganoreis S-034</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Ion Gravirei S-035</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Jikir S-037</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Jikirga S-038</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Radom S-039</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Barjuron S-040</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Juruk S-041</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Biraitsu S-042</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Rei Buruk S-043</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Garon S-044</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Ganzu Garon S-045</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Ei Garon S-046</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Hollow</Level>
+      </Card>
+      <Card>
+        <Name>Gigano Garanzu S-047</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zeberu S-048</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zeberusen S-049</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Mikeru S-050</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Doremikeru S-051</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Amuruk S-052</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Amu Shizaru S-053</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Amerusen S-054</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Emeron S-055</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Stay Focused! S-056</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Checkmate! S-057</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zaker S-058</Name>
+        <Level>Super Rare</Level>
+      </Card>
+    </Set>
+    <Set>
+      <Name>Supreme Power Of The Golden Spell</Name>
+      <Build>
+        <Weight>5</Weight>
+        <Level>
+         <Name>Rare</Name>
+          <Count>1</Count>
+        </Level>
+        <Level>
+          <Name>Uncommon</Name>
+          <Count>3</Count>
+        </Level>
+        <Level>
+          <Name>Common</Name>
+          <Count>5</Count>
+        </Level>
+        <Level>
+          <Name>Reverse Holo</Name>
+          <Count>1</Count>
+        </Level>
+      </Build>
+      <Build>
+        <Weight>1</Weight>
+        <Level>
+          <Name>Rare</Name>
+          <Count>1</Count>
+        </Level>
+          <Level>
+          <Name>Uncommon</Name>
+        <Count>3</Count>
+        </Level>
+        <Level>
+          <Name>Common</Name>
+          <Count>5</Count>
+        </Level>
+        <Level>
+          <Name>Super Rare</Name>
+          <Count>1</Count>
+        </Level>
+      </Build>
+      <Card>
+        <Name>Zatch Bell {Unafraid Heart} M-035</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Eshros {Elite} M-037</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Rops {A King For Freedom} M-038</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Danny {Combat} M-039</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Purio {A Difficult Child} M-040</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zoboron {A Strange Pet} M-041</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Wonrei {Protective King} M-042</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Zabas {Armored Wing} M-043</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Bago {Robber} M-044</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zatch Bell {Shining Body} M-047</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Zatch Bell {All Strength} M-048</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kanchome {Noble Fool} M-049</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Tia {We Are Not Alone} M-050</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zeno {Invincible} M-051</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Brago {A Regal Presence} M-053</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zatch Bell {Iron Will} M-070</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Brago {Lofty Ideal} M-071</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kanchome {I Love Candy} M-072</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Tia {Gotta Hurry} M-073</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Eshros {Hidden True Character} M-075</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Baransha {Hunter} M-076</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Cut N' Paste {Cutting Off The Space} M-082</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Nya (Transformed) {Ribbon Of Bounds} M-083</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Nya {Meow} EX-002</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kiyo Takamine P-020</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Sherry P-021</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Shin P-023</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Apollo P-024</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Mr. Goldo P-025</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Lupa P-026</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Hige P-027</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Li-en P-028</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Galliont P-029</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Fredo P-030</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Parco Folgore P-032</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Megumi P-033</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Dufort P-034</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Garza P-044</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Shion P-049</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kiichiro P-050</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Nana Baba E-028</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kiyo's Summer Vacation E-029</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Double-0 Folgore! Super Spy! E-030</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Naomi's Help E-031</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Prime Yellowtail E-032</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Completed Job E-033</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Princess Marie E-034</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Praying Mantis Joe E-035</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Volunlun E-036</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Tia's Homemade Dish E-038</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Rushka E-039</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+       <Name>Friends E-040</Name>
+       <Level>Super Rare</Level>
+      </Card>
+      <Card>
+       <Name>Light And Darkness E-042</Name>
+       <Level>Rare</Level>
+       <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+       <Name>The Most Powerful Mamodo E-043</Name>
+       <Level>Super Rare</Level>
+      </Card>
+      <Card>
+       <Name>Wife E-050</Name>
+       <Level>Uncommon</Level>
+       <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+       <Name>Will You Help Me Fight? E-051</Name>
+       <Level>Uncommon</Level>
+       <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+       <Name>Dioga Gravidon S-036</Name>
+       <Level>Super Rare</Level>
+      </Card>
+      <Card>
+       <Name>Zaker S-059</Name>
+       <Level>Uncommon</Level>
+       <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+       <Name>Zakeruga S-060</Name>
+       <Level>Super Rare</Level>
+      </Card>
+      <Card>
+       <Name>Groundam S-065</Name>
+       <Level>Common</Level>
+       <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+       <Name>Grandbao S-066</Name>
+       <Level>Uncommon</Level>
+       <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+       <Name>Grandsen S-067</Name>
+       <Level>Rare</Level>
+       <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+       <Name>Grancrag S-068</Name>
+       <Level>Uncommon</Level>
+       <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+       <Name>Rigron S-069</Name>
+       <Level>Uncommon</Level>
+       <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+       <Name>Rigrosen S-070</Name>
+       <Level>Uncommon</Level>
+       <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+       <Name>Dino Rignon S-071</Name>
+       <Level>Super Rare</Level>
+      </Card>
+      <Card>
+       <Name>Jioruk S-072</Name>
+       <Level>Rare</Level>
+       <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+       <Name>Dareido S-073</Name>
+       <Level>Common</Level>
+       <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+       <Name>Poreid S-074</Name>
+       <Level>Common</Level>
+       <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Mokerudo S-075</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Dogurak S-076</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Oru Dogurak</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Go Boren S-078</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Rerudo S-079</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Garuk S-080</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Oru Wigar S-081</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Fureido S-082</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Rin Fureido S-083</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Bareido S-084</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Gigano Bareido S-085</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Combination! S-089</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Are You OK? S-090</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Bao Zakeruga S-091</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Zakeruga S-092</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Poruk S-093</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Koporuk S-094</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Saisu S-096</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Ma Seshield S-097</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zaker S-099</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Zakeruga S-100</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Clayshield S-114</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Groundgarudo S-115</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Claydo S-116</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Groundbai S-117</Name>
+        <Level>Super Rare</Level>
+      </Card>
+      <Card>
+        <Name>Okeru S-118</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Doruk S-119</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Boruk S-120</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Gu Riaruk S-121</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Gigano Gadoruk S-122</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Go Redoruk S-131</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Gar Redoruk S-132</Name>
+        <Level>Rare</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Paperuto S-136</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Peruk S-137</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Kyadopan S-138</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Baikal S-139</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Baris S-140</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Poreidoruk S-141</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Shizaruk S-142</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Paperuk S-143</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Ganzu Poreid S-144</Name>
+        <Level>Common</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+      <Card>
+        <Name>Come Out!</Name>
+        <Level>Uncommon</Level>
+        <Level>Reverse Holo</Level>
+      </Card>
+    </Set>
+  </Game>
 </PackItBack>
