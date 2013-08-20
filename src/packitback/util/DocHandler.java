@@ -52,7 +52,7 @@ public class DocHandler {
 		return doc;
 	}
 	
-	public String checkDocument(){
+	public Validation checkDocument(){
 		return checker.checkDocument();
 	}
 	

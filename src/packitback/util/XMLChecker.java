@@ -13,17 +13,17 @@ public class XMLChecker {
 	}
 	
 	//METHODS
-	public String checkDocument(){
+	public Validation checkDocument(){
 		
 		if(doc == null){
-			return "Null document.";
+			return new Validation(false, "Null document.");
 		}
 		
 		if(!checkRootElement()){
-			return "Root Element incorrect. Should be <PackItBack>";
+			return new Validation(false, "Root Element incorrect. Should be <PackItBack>");
 		}
 		
-		return "XML checks out!";
+		return new Validation(true, "XML checks out!");
 	}
 	
 	private boolean checkRootElement(){

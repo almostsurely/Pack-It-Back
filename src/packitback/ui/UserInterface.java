@@ -17,6 +17,7 @@ import javax.swing.JTextArea;
 import org.jdom2.JDOMException;
 
 import packitback.util.DocHandler;
+import packitback.util.Validation;
 
 /**
  * The UserInterface Class. Sets up the User Interface and overall functionality.
@@ -40,6 +41,7 @@ public class UserInterface extends JFrame{
 	private JComboBox<String> games;
 	private JComboBox<String> sets;
 	private DocHandler docHand;
+	Validation val;
 	
 	//CONSTRUCTOR
 	/**
@@ -53,13 +55,16 @@ public class UserInterface extends JFrame{
 		
 		try {
 			this.docHand = new DocHandler(filepath);
-			refreshGames();
-			refreshSets();
+			val = docHand.checkDocument();
+			results.setText(val.getValidationText());
+			if(val.isValidated()){
+				refreshGames();
+				refreshSets();
+			}
 		} catch (JDOMException | IOException e) {
 			results.setText(e.toString());
 		}
 		
-		results.setText(docHand.checkDocument());
 		
 	}
 	
@@ -149,14 +154,16 @@ public class UserInterface extends JFrame{
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			String resultsString = null;
-			try {
-				resultsString = docHand.getPack((String)games.getSelectedItem(), (String)sets.getSelectedItem());
-			} catch (NullPointerException e1) {
-				// TODO Auto-generated catch block
-				resultsString = e1.toString();
+			if(val.isValidated()){
+				String resultsString = null;
+				try {
+					resultsString = docHand.getPack((String)games.getSelectedItem(), (String)sets.getSelectedItem());
+				} catch (NullPointerException e1) {
+					// TODO Auto-generated catch block
+					resultsString = e1.toString();
+				}
+				results.setText(resultsString);
 			}
-			results.setText(resultsString);
 		}
 		
 	}
@@ -169,7 +176,9 @@ public class UserInterface extends JFrame{
 		
 		@Override
 		public void actionPerformed(ActionEvent arg0) {
-			refreshSets();
+			if(val.isValidated()){
+				refreshSets();
+			}
 		}
 		
 	}
