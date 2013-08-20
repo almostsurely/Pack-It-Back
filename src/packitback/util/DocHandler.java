@@ -9,7 +9,6 @@ import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
-import org.jdom2.input.sax.XMLReaders;
 
 /**
  * A handler object for the JDOM Document class. Holds all relevant functions for
@@ -22,6 +21,7 @@ public class DocHandler {
 	
 	//FIELDS
 	private Document doc;
+	private XMLChecker checker;
 	
 	//CONSTRUCTOR
 	/**
@@ -33,6 +33,7 @@ public class DocHandler {
 	 */
 	public DocHandler(String filename) throws JDOMException, IOException{
 		doc = loadFile(filename);
+		checker = new XMLChecker(doc);
 	}
 
 	//METHODS
@@ -51,6 +52,10 @@ public class DocHandler {
 		return doc;
 	}
 	
+	public String checkDocument(){
+		return checker.checkDocument();
+	}
+	
 	/**
 	 * @return	An ArrayList of all the games listed in the PackItBack XML.
 	 */
@@ -58,9 +63,8 @@ public class DocHandler {
 		ArrayList<String> games = new ArrayList<String>();
 		
 		Element root = doc.getRootElement();
-		List<Element> gameE = root.getChildren("Game");
 		
-		for(Element e : gameE){
+		for(Element e : root.getChildren("Game")){
 			Element n = e.getChild("Name");
 			games.add(n.getText());
 		}

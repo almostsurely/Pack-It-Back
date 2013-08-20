@@ -59,6 +59,8 @@ public class UserInterface extends JFrame{
 			results.setText(e.toString());
 		}
 		
+		results.setText(docHand.checkDocument());
+		
 	}
 	
 	//METHODS
