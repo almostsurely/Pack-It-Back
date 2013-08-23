@@ -1,6 +1,7 @@
 package packitback.util;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import org.jdom2.Document;
 import org.jdom2.Element;
@@ -43,15 +44,10 @@ public class XMLChecker {
 		//Makes sure all <Game> tags have a <Name> tag.
 		if(!checkGameNames()){
 			return new Validation(false, "Not all <Game> tags have a <Name> tag.");
-		} else {
-			
-			builder.append("Games:\n");
-			
-			for(String s : getGameNames()){
-				builder.append(s + ", ");
-			}
-			
-			builder.append("\n");
+		}
+		
+		if(!checkGameSets()){
+			return new Validation(false, "Not all <Game> tags have a <Set> tag.");
 		}
 		
 		//Our "Everything works" return.
@@ -94,5 +90,20 @@ public class XMLChecker {
 		}
 		
 		return games;
+	}
+	
+	private boolean checkGameSets(){
+		
+		//For each Game
+		for (Element e : doc.getRootElement().getChildren("Game")){
+			List<Element> sets = e.getChildren("Set");
+			if(sets.size() >= 1){
+				continue;
+			} else {
+				return false;
+			}
+		}
+		
+		return true;
 	}
 }
