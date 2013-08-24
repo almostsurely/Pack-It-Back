@@ -46,8 +46,14 @@ public class XMLChecker {
 			return new Validation(false, "Not all <Game> tags have a <Name> tag.");
 		}
 		
+		//Makes sure all <Game> tags have at least one <Set> tag.
 		if(!checkGameSets()){
 			return new Validation(false, "Not all <Game> tags have a <Set> tag.");
+		}
+		
+		//Makes sure all <Set> tags have a <Name> tag.
+		if(!checkSetNames()){
+			return new Validation(false, "Not all <Set> tags have a <Name> tag.");
 		}
 		
 		//Our "Everything works" return.
@@ -101,6 +107,29 @@ public class XMLChecker {
 				continue;
 			} else {
 				return false;
+			}
+		}
+		
+		return true;
+	}
+	
+	private boolean checkSetNames(){
+		//Get List of Games
+		List<Element> games = doc.getRootElement().getChildren("Game");
+		
+		//For each game
+		for(Element e : games){
+			
+			//Get List of sets
+			List<Element> sets = e.getChildren("Set");
+			
+			//For each set
+			for(Element f : sets){
+				Element n = f.getChild("Name");
+				
+				if(n == null){
+					return false;
+				}
 			}
 		}
 		
