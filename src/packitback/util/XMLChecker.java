@@ -56,6 +56,11 @@ public class XMLChecker {
 			return new Validation(false, "Not all <Set> tags have a <Name> tag.");
 		}
 		
+		//Make sure all <Set> tags have at least one <Build> tag.
+		if(!checkSetBuilds()){
+			return new Validation(false, "Not all <Set> tags have at least one <Build> tag.");
+		}
+		
 		//Our "Everything works" return.
 		return new Validation(true, builder.toString());
 	}
@@ -128,6 +133,28 @@ public class XMLChecker {
 				Element n = f.getChild("Name");
 				
 				if(n == null){
+					return false;
+				}
+			}
+		}
+		
+		return true;
+	}
+	
+	private boolean checkSetBuilds(){
+		
+		List<Element> games = doc.getRootElement().getChildren("Game");
+		
+		//For each Game
+		for (Element e : games){
+			List<Element> sets = e.getChildren("Set");
+			
+			//For each Set
+			for (Element f : sets){
+				
+				List<Element> builds = f.getChildren("Build");
+				
+				if(builds.size() == 0){
 					return false;
 				}
 			}
