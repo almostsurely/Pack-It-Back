@@ -19,9 +19,52 @@ public class XMLChecker {
 	//METHODS
 	public Validation checkDocument(){
 		
-		//String Builder for running true return.
+		//String Builder for running return.
 		StringBuilder builder = new StringBuilder();
 		
+		//Check for a Null Document
+		if(doc == null){
+			builder.append("Null Document");
+			//If document is null, no further tests can be completed.
+			return new Validation(false, builder.toString());
+		}
+		
+		//Make sure Root Tag is <PackItBack>
+		Element root = doc.getRootElement();
+		
+		if(!root.getName().equals("PackItBack")){
+			builder.append("Root Element isn't PackItBack. Please make sure you are using the correct XML.");
+			//If Root Element is not PackItBack, no further tests can be completed.
+			return new Validation(false, builder.toString());
+		}
+		
+		//Check for <Game> tags.
+		List<Element> games = root.getChildren("Game");
+		
+		if(!checkGames(games)){
+			builder.append("No <Game> tags.");
+			//If there are no <Game> tags, no further tests can be completed.
+			return new Validation(false, builder.toString());
+		}
+		
+		//Begin iterative stuff.
+		
+		//For each Game.
+		for (Element game : games){
+			
+		}
+		
+		//If passes all checks
+		return new Validation(true, "Yay!");
+	}
+	
+	private boolean checkGames(List<Element> games){
+		return games.size() > 0;
+	}
+	
+	
+	
+		/* TODO Remove if new test works.
 		//Checks for a null Document.
 		if(doc == null){
 			return new Validation(false, "Null document.");
@@ -162,4 +205,5 @@ public class XMLChecker {
 		
 		return true;
 	}
+	*/
 }
