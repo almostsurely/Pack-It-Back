@@ -21,6 +21,7 @@ public class XMLChecker {
 		
 		//String Builder for running return.
 		StringBuilder builder = new StringBuilder();
+		boolean valid =true;
 		
 		//Check for a Null Document
 		if(doc == null){
@@ -41,7 +42,7 @@ public class XMLChecker {
 		//Check for <Game> tags.
 		List<Element> games = root.getChildren("Game");
 		
-		if(!checkGames(games)){
+		if(!checkEmpty(games)){
 			builder.append("No <Game> tags.");
 			//If there are no <Game> tags, no further tests can be completed.
 			return new Validation(false, builder.toString());
@@ -52,18 +53,62 @@ public class XMLChecker {
 		//For each Game.
 		for (Element game : games){
 			
+			//Check that each <Game> has a <Name>
+			if (!checkHasName(game)){
+				valid = false;
+				builder.append("At least <Game> doesn't have a <Name> \ntag.\n\n");
+				continue;
+			}
+			
+			String gameName = game.getChildText("Name");
+			
+			//Check that each <Game> has a <Set>
+			List<Element> sets = game.getChildren("Set");
+			if(!checkEmpty(sets)){
+				valid = false;
+				builder.append(gameName + " doesn't have any sets.\n\n");
+				continue;
+			}
+			
+			//For each Set in Game
+			for (Element set : sets){
+				
+				//Check that each <Set> has a <Name>
+				if (!checkHasName(set)){
+					valid = false;
+					builder.append("At least one <Set> in " + gameName + " doesn't have a <Name>.\n\n");
+					continue;
+				}
+				
+				String setName = set.getChildText("Name");
+				
+				//Check that each <Set> has a <Build>
+				if(!checkHas(set, "Build")){
+					valid = false;
+					builder.append(setName + " in " + gameName + " doesn't have any <Build> tags.\n\n");
+				}
+			}
 		}
 		
 		//If passes all checks
-		return new Validation(true, "Yay!");
+		if(valid){
+			return new Validation(valid, "Yay!");
+		} else {
+			return new Validation(valid, builder.toString());
+		}
 	}
 	
-	private boolean checkGames(List<Element> games){
-		return games.size() > 0;
+	private boolean checkEmpty(List<Element> l){
+		return l.size() > 0;
 	}
 	
+	private boolean checkHasName(Element e){
+		return checkHas(e, "Name");
+	}
 	
-	
+	private boolean checkHas(Element e, String s){
+		return e.getChild(s) != null;
+	}
 		/* TODO Remove if new test works.
 		//Checks for a null Document.
 		if(doc == null){
