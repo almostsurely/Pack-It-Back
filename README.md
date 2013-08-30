@@ -81,4 +81,44 @@ The XML for Pack-It-Back has a specific layout it uses.
     Parent: <Build>
     Children: <Name>, <Count>
 
-    
+    This element represents a Level, Rarity, or Type of card. For example, if the game's booster packs are sorted by Rarity, then there will be a level for each rarity level.
+
+<Name>
+    Required: Yes
+    Limited to One: Yes
+    Parent: <Level>
+    Children: None
+
+    This Name has to match exactly to the Level's listed in the <Card> tags.
+
+<Count>
+    Required: Yes
+    Limited to One: Yes
+    Parent: <Level>
+    Children: None
+
+    This is how many of this particular Level appears in a booster pack. If there are 10 Commons, this number would be 10 for Common.
+
+<Card>
+    Required: Yes
+    Limited to One: No
+    Parent: <Set>
+    Children: <Name>, <Level>
+
+    Everything in the <Card> tags represents an individual card in the game's set.
+
+<Name>
+    Required: Yes
+    Limited to One: Yes
+    Parent: <Card>
+    Children: None
+
+    The name of the card how it will be displayed in Pack-It-Back.
+
+<Level>
+    Required: Yes
+    Limited to One: No
+    Parent: <Card>
+    Children: None
+
+    The levels that the card can fall under. The reason it is possible for a single card to have more than one level, is because in come games, the same card can come in two forms, Normal and Reverse-Holo. The text between these tags must match a <Name> in a <Level> in a <Build> of this card's set.
