@@ -5,17 +5,34 @@ import java.util.List;
 import org.jdom2.Document;
 import org.jdom2.Element;
 
+/**
+ * This object is used to check that the XML listed is in the correct format for Pack-It-Back.
+ * 
+ * 
+ * @author James
+ *
+ */
 public class XMLChecker {
 	
 	//FIELDS
 	Document doc;
 	
 	//CONSTRUCTOR
+	/**
+	 * Constructor of the XML Checker.
+	 * 
+	 * @param doc
+	 */
 	public XMLChecker(Document doc){
 		this.doc = doc;
 	}
 	
 	//METHODS
+	/**
+	 * Checks that the XML document is formatted correctly, & gives feedback.
+	 * 
+	 * @return
+	 */
 	public Validation checkDocument(){
 		
 		//String Builder for running return.
@@ -157,14 +174,33 @@ public class XMLChecker {
 		}
 	}
 	
+	/**
+	 * A method to check if the List of Elements is empty.
+	 * 
+	 * @param l
+	 * @return
+	 */
 	private boolean checkEmpty(List<Element> l){
 		return l.size() > 0;
 	}
 	
+	/**
+	 * Check if element has a <Name> child.
+	 * 
+	 * @param e
+	 * @return
+	 */
 	private boolean checkHasName(Element e){
 		return checkHas(e, "Name");
 	}
 	
+	/**
+	 * Check if Element e has a Child with a name of s.
+	 * 
+	 * @param e
+	 * @param s
+	 * @return
+	 */
 	private boolean checkHas(Element e, String s){
 		return e.getChild(s) != null;
 	}
